@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  postgres:
+    container_name: postgres
+    hostname: postgres
+    image: postgres:latest
+    restart: always
+    env_file:
+      - .env
+    ports:
+      - 5445:5432
+    expose:
+      - 5432
+    volumes:
+      - ./postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./postgres/data:/var/lib/postgresql/data
+
+  mongodb:
+    container_name: mongodb
+    image: mongo:latest
+    restart: always
+    env_file:
+      - .env
+    ports:
+      - 27017:27017
+    expose:
+      - 27017
+    volumes:
+      - ./mongodb/data:/data/db

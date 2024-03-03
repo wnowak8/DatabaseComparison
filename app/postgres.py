@@ -1,19 +1,12 @@
 import os
 
-from dotenv import load_dotenv
-from utils.logging import get_module_logging
 import logging
 import pandas as pd
+from dotenv import load_dotenv
 from sqlalchemy import create_engine, select, Table, update
 from sqlalchemy.orm import registry
 
 load_dotenv()
-
-logging.basicConfig(
-    level=getattr(logging, "INFO"),
-    format="%(asctime)s.%(msecs)03d-%(levelname)s-%(funcName)s()-%(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S",
-)
 
 
 class PostgresDB():
@@ -32,12 +25,11 @@ class PostgresDB():
     def get_table(self, table_name: str):
         try:
             return Table(table_name,
-                         self.mapper_registry.metadata,
-                         autoload=True,
-                         autoload_with=self.engine)
-        except:
-            logging.error("Could not get table")
-            raise Exception
+                        self.mapper_registry.metadata,
+                        autoload_with=self.engine)
+        except Exception as e:
+            logging.error(f"Could not get table: {str(e)}")
+            raise
 
     def send_df_to_db(self, table_name: str, df: pd.DataFrame):
         try:

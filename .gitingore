@@ -1,5 +1,7 @@
 data/
 venv/
+postgres/assets/
+mongo/assets/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

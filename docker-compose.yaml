@@ -13,7 +13,7 @@ services:
     expose:
       - 5445
     volumes:
-      - ./postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./postgres/db/init.sql:/docker-entrypoint-initdb.d/init.sql
       # - ./postgres/data:/var/lib/postgresql/data
 
   mongodb:
@@ -26,7 +26,10 @@ services:
       - 27720:27017
     expose:
       - 27720
-    # volumes:
-    #   - ./mongodb/data:/data/db
     volumes:
-      - ./mongo/init.js:/docker-entrypoint-initdb.d/init.js:ro
+      - ./mongo/db/init.js:/docker-entrypoint-initdb.d/init.js
+    # - ./mongo/data:/data/db
+
+
+
+

@@ -78,15 +78,12 @@ def average_performance_metrics(total_connections):
                 start_time = time.time()
                 logging.info(f"{total_connections=}")
 
-                # Utwórz listę zadan dla równoległego wykonania
                 tasks = [
                     partial(fun_name, *args, **kwargs) for _ in range(total_connections)
                 ]
 
-                # Wykonaj zadania równolegle
                 with concurrent.futures.ThreadPoolExecutor() as executor:
                     results = executor.map(lambda x: (x, get_wmi_metrics()), tasks)
-                # Zsumuj wyniki
                 for result, current_metrics in results:
                     # print(f"{result=} {current_metrics=}")
                     total_metrics = [

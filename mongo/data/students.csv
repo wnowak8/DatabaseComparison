@@ -1,0 +1,6 @@
+student_id;name;surname;email;phone_number;program_name;semester;study_mode
+873361d9-2a10-413c-a5a2-c33433bcec74;Name_1;Surname_1;student1@example.com;+48 924 194 550;Program_1;5;Part-time
+6b549395-b783-41dc-bec3-c54683da2763;Name_2;Surname_2;student2@example.com;+48 944 747 418;Program_2;6;Part-time
+ab0d30e3-c867-4003-a453-dc3f02c5f8ae;Name_3;Surname_3;student3@example.com;+48 634 696 856;Program_3;3;Part-time
+788308c7-f9a3-41a2-9509-49b02ec7dee5;Name_4;Surname_4;student4@example.com;+48 768 290 189;Program_4;3;Full-time
+62f63a93-ecb4-449c-9921-1d1279a5e8d6;Name_5;Surname_5;student5@example.com;+48 608 971 838;Program_5;5;Part-time

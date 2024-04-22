@@ -1,9 +1,9 @@
 import logging
 import pandas as pd
 from dotenv import load_dotenv
-from sqlalchemy import create_engine, select, Table, update, delete
-from sqlalchemy.orm import registry
-from sqlalchemy.orm import sessionmaker
+from sqlalchemy import create_engine, select, Table, update, delete, func
+from sqlalchemy.orm import registry, sessionmaker
+
 
 load_dotenv()
 
@@ -60,37 +60,6 @@ class PostgresDB:
             return df
         except Exception as error:
             logging.error(f"Error fetching data from table '{table_name}': {error}")
-
-    def get_by_id(self, table_name: str, id: str):
-        try:
-            table = self.get_table(table_name=table_name)
-            query = select(table).where(table.c.id == id)
-            return self.get_df_from_sql(query=query)
-        except Exception as ex:
-            logging.exception(ex)
-
-    def create(self, table_name: str, df: pd.DataFrame):
-        df.to_sql(name=table_name, con=self.engine, if_exists="append", index=False)
-
-    def update(self, table_name: str, id: str, data: dict):
-        table = self.get_table(table_name=table_name)
-        query = update(table).where(table.c.id == id).values(data)
-        # logging.info(query)
-        with self.engine.connect() as conn:
-            conn.execute(query)
-
-    def delete(self, table_name: str, id: str, id_column):
-
-        table = self.get_table(table_name=table_name)
-        query = table.delete().where(id_column == id)
-        with self.engine.connect() as conn:
-            conn.execute(query)
-
-    def get_last_row(self, table_name: str, column_name: str):
-        table = self.get_table(table_name=table_name)
-        query = table.select().order_by(table.c.column_name.desc()).limit(1)
-        conn = self.engine.connect()
-        return pd.read_sql(query, conn)
 
     def execute_transaction_with_data(self, table_name: str, df: pd.DataFrame):
         try:
@@ -177,3 +146,42 @@ class PostgresDB:
             logging.info(f"All data cleared from {table_name} table successfully.")
         except Exception as e:
             logging.error(f"Error clearing data from table: {e}")
+
+    def aggregate_students_by_program(self):
+        try:
+            student_table = self.get_table("students")
+            session = self.Session()
+            query = session.query(
+                student_table.c.program_name,
+                func.count().label("num_students")
+            ).group_by(student_table.c.program_name)
+            result = query.all()
+            session.close()
+            return result
+        except Exception as e:
+            logging.error(f"Error aggregating students by program: {e}")
+
+    def join_students_courses(self):
+        try:
+            student_table = self.get_table("students")
+            course_table = self.get_table("courses")
+            enrollment_table = self.get_table("enrollments")
+
+            session = self.Session()
+            query = session.query(
+                student_table.c.name,
+                student_table.c.surname,
+                course_table.c.course_name,
+                course_table.c.instructor
+            ).join(
+                enrollment_table,
+                student_table.c.student_id == enrollment_table.c.student_id
+            ).join(
+                course_table,
+                course_table.c.course_id == enrollment_table.c.course_id
+            )
+            result = query.all()
+            session.close()
+            return result
+        except Exception as e:
+            logging.error(f"Error performing join query: {e}")

@@ -1,0 +1,77 @@
+[
+  {
+    "student_id": "9cfd99fc-d2b2-4426-915e-dd22edd407b8",
+    "name": "Name_1",
+    "surname": "Surname_1",
+    "email": "student1@example.com",
+    "phone_number": "+48 755 440 142",
+    "program_name": "Program_1",
+    "semester": "5",
+    "study_mode": "Part-time",
+    "courses": [
+      "35aa183b-4a72-4f75-a2f5-3fb270c279d1",
+      "cdbd48ad-b13d-4a58-b9bc-6f517537d463",
+      "c59a04f5-d3de-4450-8b3f-0c55ad6f43bc",
+      "fc19d25c-d465-4b75-abc1-5b5b35fad983"
+    ]
+  },
+  {
+    "student_id": "f6c7ab1a-df9d-456e-a706-8c116ad468f2",
+    "name": "Name_2",
+    "surname": "Surname_2",
+    "email": "student2@example.com",
+    "phone_number": "+48 670 392 622",
+    "program_name": "Program_2",
+    "semester": "7",
+    "study_mode": "Part-time",
+    "courses": [
+      "fc19d25c-d465-4b75-abc1-5b5b35fad983",
+      "c59a04f5-d3de-4450-8b3f-0c55ad6f43bc",
+      "7a9d977f-73be-4c1e-b599-2e2b3a74163a"
+    ]
+  },
+  {
+    "student_id": "7a875a35-a70e-46c4-a794-090e04498438",
+    "name": "Name_3",
+    "surname": "Surname_3",
+    "email": "student3@example.com",
+    "phone_number": "+48 850 525 240",
+    "program_name": "Program_3",
+    "semester": "9",
+    "study_mode": "Part-time",
+    "courses": [
+      "cdbd48ad-b13d-4a58-b9bc-6f517537d463",
+      "fc19d25c-d465-4b75-abc1-5b5b35fad983"
+    ]
+  },
+  {
+    "student_id": "5e196159-5be8-42bd-9d43-bbc0fece51e0",
+    "name": "Name_4",
+    "surname": "Surname_4",
+    "email": "student4@example.com",
+    "phone_number": "+48 463 123 641",
+    "program_name": "Program_4",
+    "semester": "3",
+    "study_mode": "Part-time",
+    "courses": [
+      "35aa183b-4a72-4f75-a2f5-3fb270c279d1",
+      "cdbd48ad-b13d-4a58-b9bc-6f517537d463",
+      "7a9d977f-73be-4c1e-b599-2e2b3a74163a",
+      "c59a04f5-d3de-4450-8b3f-0c55ad6f43bc"
+    ]
+  },
+  {
+    "student_id": "03dea2c6-810b-40be-acdd-a636eeb5dfe3",
+    "name": "Name_5",
+    "surname": "Surname_5",
+    "email": "student5@example.com",
+    "phone_number": "+48 547 978 861",
+    "program_name": "Program_5",
+    "semester": "3",
+    "study_mode": "Part-time",
+    "courses": [
+      "fc19d25c-d465-4b75-abc1-5b5b35fad983",
+      "35aa183b-4a72-4f75-a2f5-3fb270c279d1"
+    ]
+  }
+]

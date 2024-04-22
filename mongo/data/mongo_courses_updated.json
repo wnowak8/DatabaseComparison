@@ -1,0 +1,62 @@
+[
+  {
+    "course_id": "c59a04f5-d3de-4450-8b3f-0c55ad6f43bc",
+    "course_name": "Course_1",
+    "instructor": "Instructor_1",
+    "room": "Room_1",
+    "credits": "5",
+    "students": [
+      "9cfd99fc-d2b2-4426-915e-dd22edd407b8",
+      "f6c7ab1a-df9d-456e-a706-8c116ad468f2",
+      "5e196159-5be8-42bd-9d43-bbc0fece51e0"
+    ]
+  },
+  {
+    "course_id": "fc19d25c-d465-4b75-abc1-5b5b35fad983",
+    "course_name": "Course_2",
+    "instructor": "Instructor_2",
+    "room": "Room_2",
+    "credits": "4",
+    "students": [
+      "9cfd99fc-d2b2-4426-915e-dd22edd407b8",
+      "f6c7ab1a-df9d-456e-a706-8c116ad468f2",
+      "7a875a35-a70e-46c4-a794-090e04498438",
+      "03dea2c6-810b-40be-acdd-a636eeb5dfe3"
+    ]
+  },
+  {
+    "course_id": "7a9d977f-73be-4c1e-b599-2e2b3a74163a",
+    "course_name": "Course_3",
+    "instructor": "Instructor_3",
+    "room": "Room_3",
+    "credits": "2",
+    "students": [
+      "f6c7ab1a-df9d-456e-a706-8c116ad468f2",
+      "5e196159-5be8-42bd-9d43-bbc0fece51e0"
+    ]
+  },
+  {
+    "course_id": "35aa183b-4a72-4f75-a2f5-3fb270c279d1",
+    "course_name": "Course_4",
+    "instructor": "Instructor_4",
+    "room": "Room_4",
+    "credits": "2",
+    "students": [
+      "9cfd99fc-d2b2-4426-915e-dd22edd407b8",
+      "5e196159-5be8-42bd-9d43-bbc0fece51e0",
+      "03dea2c6-810b-40be-acdd-a636eeb5dfe3"
+    ]
+  },
+  {
+    "course_id": "cdbd48ad-b13d-4a58-b9bc-6f517537d463",
+    "course_name": "Course_5",
+    "instructor": "Instructor_5",
+    "room": "Room_5",
+    "credits": "3",
+    "students": [
+      "9cfd99fc-d2b2-4426-915e-dd22edd407b8",
+      "7a875a35-a70e-46c4-a794-090e04498438",
+      "5e196159-5be8-42bd-9d43-bbc0fece51e0"
+    ]
+  }
+]

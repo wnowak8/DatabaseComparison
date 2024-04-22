@@ -1,0 +1,1440 @@
+[
+  {
+    "student_id": "e61c6299-932c-4d45-9609-72505b883c82",
+    "name": "Updated_Name_1",
+    "surname": "Updated_Surname_1",
+    "email": "updated_student1@example.com",
+    "phone_number": "+48 678 511 386",
+    "program_name": "Updated_Program_1",
+    "semester": "4",
+    "study_mode": "Full-time",
+    "courses": [
+      "b9b85017-19a5-4487-8de9-8363e2ae48e2",
+      "db9f9848-24d5-4db7-9943-9ce679ccc165"
+    ]
+  },
+  {
+    "student_id": "b51dfd22-8452-46a5-9563-d226bb93a871",
+    "name": "Updated_Name_2",
+    "surname": "Updated_Surname_2",
+    "email": "updated_student2@example.com",
+    "phone_number": "+48 357 535 681",
+    "program_name": "Updated_Program_2",
+    "semester": "7",
+    "study_mode": "Part-time",
+    "courses": [
+      "fa868757-fbc2-4921-86c7-781c49e0beb6",
+      "335a14f7-2c06-4b4a-8785-880bccc009a0"
+    ]
+  },
+  {
+    "student_id": "7db6b095-0422-4d3d-83cb-7f61f4c36307",
+    "name": "Updated_Name_3",
+    "surname": "Updated_Surname_3",
+    "email": "updated_student3@example.com",
+    "phone_number": "+48 790 579 111",
+    "program_name": "Updated_Program_3",
+    "semester": "3",
+    "study_mode": "Full-time",
+    "courses": [
+      "fca86a06-40df-48a5-9bca-cea0ed3f687e",
+      "c88ab057-3a90-41ee-afba-7b8d3b65d586",
+      "67526ee1-75e8-401f-9fb6-5ccdd73d92d7",
+      "c976662d-0c2f-4940-bb61-f9d7e6ba08ef"
+    ]
+  },
+  {
+    "student_id": "962b7e1a-edd9-44e3-8cdd-980647b694da",
+    "name": "Updated_Name_4",
+    "surname": "Updated_Surname_4",
+    "email": "updated_student4@example.com",
+    "phone_number": "+48 246 726 709",
+    "program_name": "Updated_Program_4",
+    "semester": "1",
+    "study_mode": "Full-time",
+    "courses": [
+      "ee86ebe4-1b46-4d5a-a5ee-d3fa7c5706ce",
+      "28b67ea8-7b6b-4742-878f-3a9b58d6cf77"
+    ]
+  },
+  {
+    "student_id": "70321138-e1a3-4314-b54a-d5bb2e7e45e8",
+    "name": "Updated_Name_5",
+    "surname": "Updated_Surname_5",
+    "email": "updated_student5@example.com",
+    "phone_number": "+48 492 552 912",
+    "program_name": "Updated_Program_5",
+    "semester": "6",
+    "study_mode": "Part-time",
+    "courses": [
+      "028bd985-fc2c-4479-a0ee-e7e491cde53f",
+      "9139845b-08d6-44b4-8781-4f7c30007521",
+      "e28dc1fc-876c-47ec-af58-097ace2d7293",
+      "b7799784-1eb3-467b-9940-86025d4551d3"
+    ]
+  },
+  {
+    "student_id": "5f6264ce-00cb-4e1f-8c57-4983c7eb7c06",
+    "name": "Updated_Name_6",
+    "surname": "Updated_Surname_6",
+    "email": "updated_student6@example.com",
+    "phone_number": "+48 989 162 926",
+    "program_name": "Updated_Program_6",
+    "semester": "9",
+    "study_mode": "Full-time",
+    "courses": [
+      "b435ce14-66fb-41c5-9983-2a37992292f1",
+      "0f91ba0e-f4d8-43e1-ad87-cd4407bfc74e",
+      "af9fc070-baeb-478b-8f5f-0efddf80bfae"
+    ]
+  },
+  {
+    "student_id": "0eecae1c-c34d-4366-8c98-7119d0fe3dd6",
+    "name": "Updated_Name_7",
+    "surname": "Updated_Surname_7",
+    "email": "updated_student7@example.com",
+    "phone_number": "+48 278 688 967",
+    "program_name": "Updated_Program_7",
+    "semester": "9",
+    "study_mode": "Part-time",
+    "courses": [
+      "61c6ffc1-a7e0-4d8e-98b1-a03566bced09",
+      "eeaa68ee-4b28-462b-9e44-0a4b32333753",
+      "b1918ead-8ba4-48ef-a8ea-0938106e4420"
+    ]
+  },
+  {
+    "student_id": "8227407e-9d9f-4adb-8952-0a93bdcd7c37",
+    "name": "Updated_Name_8",
+    "surname": "Updated_Surname_8",
+    "email": "updated_student8@example.com",
+    "phone_number": "+48 642 399 580",
+    "program_name": "Updated_Program_8",
+    "semester": "4",
+    "study_mode": "Full-time",
+    "courses": [
+      "ab51e00a-ec9c-4b09-8547-780aa6c7f8c6"
+    ]
+  },
+  {
+    "student_id": "9cdb2ca2-dbc6-42a9-8e3b-494aef5f68f7",
+    "name": "Updated_Name_9",
+    "surname": "Updated_Surname_9",
+    "email": "updated_student9@example.com",
+    "phone_number": "+48 312 699 936",
+    "program_name": "Updated_Program_9",
+    "semester": "6",
+    "study_mode": "Full-time",
+    "courses": [
+      "c0687753-5c2d-428c-bc65-d0b9c1935e23",
+      "74a8766e-5257-4481-8392-4b520c5c46cc",
+      "bf10fed5-3431-48bb-aaf2-6da7991603f9",
+      "6d72f477-b2d4-4431-ba2f-3e5d0b2a1e83"
+    ]
+  },
+  {
+    "student_id": "d3183a26-ad00-48e8-b925-3b53d204ad81",
+    "name": "Updated_Name_10",
+    "surname": "Updated_Surname_10",
+    "email": "updated_student10@example.com",
+    "phone_number": "+48 273 649 573",
+    "program_name": "Updated_Program_10",
+    "semester": "9",
+    "study_mode": "Part-time",
+    "courses": [
+      "6c40395b-72c4-486e-b885-95f30a426936",
+      "6c14c3e5-5191-4423-b57a-e4a97e9b8f15"
+    ]
+  },
+  {
+    "student_id": "1f67a404-281d-4323-8177-99442af702a6",
+    "name": "Updated_Name_11",
+    "surname": "Updated_Surname_11",
+    "email": "updated_student11@example.com",
+    "phone_number": "+48 924 835 310",
+    "program_name": "Updated_Program_11",
+    "semester": "2",
+    "study_mode": "Full-time",
+    "courses": [
+      "970e45f1-65e4-486d-9159-08ed658d3f9a",
+      "27db4a4b-e11b-448b-878c-2209c1eb444b"
+    ]
+  },
+  {
+    "student_id": "a892ac0d-7578-440b-a734-b3eeebd3e3e2",
+    "name": "Updated_Name_12",
+    "surname": "Updated_Surname_12",
+    "email": "updated_student12@example.com",
+    "phone_number": "+48 932 139 560",
+    "program_name": "Updated_Program_12",
+    "semester": "1",
+    "study_mode": "Part-time",
+    "courses": [
+      "e0f3a8ae-9700-4a5f-a841-4910adb0b24c"
+    ]
+  },
+  {
+    "student_id": "60468337-2493-4327-9dc5-c5565bc28a09",
+    "name": "Updated_Name_13",
+    "surname": "Updated_Surname_13",
+    "email": "updated_student13@example.com",
+    "phone_number": "+48 445 423 973",
+    "program_name": "Updated_Program_13",
+    "semester": "9",
+    "study_mode": "Full-time",
+    "courses": [
+      "af9fc070-baeb-478b-8f5f-0efddf80bfae",
+      "5dd25eb0-8150-40b0-9c97-b799262ec1dd",
+      "9139845b-08d6-44b4-8781-4f7c30007521"
+    ]
+  },
+  {
+    "student_id": "d20eb9e0-f6ae-4297-8703-0fdb5625d62a",
+    "name": "Updated_Name_14",
+    "surname": "Updated_Surname_14",
+    "email": "updated_student14@example.com",
+    "phone_number": "+48 638 627 282",
+    "program_name": "Updated_Program_14",
+    "semester": "2",
+    "study_mode": "Full-time",
+    "courses": [
+      "77dde167-69c8-454d-b43a-06eb2479dc83",
+      "8b21d7b3-d456-4296-933c-651e714eb6aa",
+      "1b5199ab-ddc6-4528-902d-bd55a95b0b85",
+      "8dad6351-55a7-4373-a3d1-5fee89257532"
+    ]
+  },
+  {
+    "student_id": "28bc7bb9-e6d3-4984-b246-df1991a22167",
+    "name": "Updated_Name_15",
+    "surname": "Updated_Surname_15",
+    "email": "updated_student15@example.com",
+    "phone_number": "+48 305 479 257",
+    "program_name": "Updated_Program_15",
+    "semester": "7",
+    "study_mode": "Part-time",
+    "courses": [
+      "29afcf3a-a2ab-4db0-a4af-b9165afbd194",
+      "b435ce14-66fb-41c5-9983-2a37992292f1",
+      "7919b83b-3607-463b-af8d-18dfb40fc164",
+      "c52c9ed6-4f28-4058-abbf-4eefbd98703b"
+    ]
+  },
+  {
+    "student_id": "b088e7c6-95b1-4f08-96d6-9f4fc986afd4",
+    "name": "Updated_Name_16",
+    "surname": "Updated_Surname_16",
+    "email": "updated_student16@example.com",
+    "phone_number": "+48 620 528 865",
+    "program_name": "Updated_Program_16",
+    "semester": "7",
+    "study_mode": "Part-time",
+    "courses": [
+      "224c09d9-5077-4faa-baab-56ef4f628f9d",
+      "9629f0ce-3093-4a7a-b548-8b99f944db69",
+      "7ceb2317-f43e-47b5-9d5e-0d0e000dbe95"
+    ]
+  },
+  {
+    "student_id": "091ce0c6-6186-46e9-940d-f3253c1d26ec",
+    "name": "Updated_Name_17",
+    "surname": "Updated_Surname_17",
+    "email": "updated_student17@example.com",
+    "phone_number": "+48 311 182 171",
+    "program_name": "Updated_Program_17",
+    "semester": "4",
+    "study_mode": "Full-time",
+    "courses": [
+      "203f3afe-d232-4bfa-81da-252af1e017b0",
+      "8aa9766b-a8fd-4176-999a-13b9829c9256",
+      "91c69a58-0db0-4274-939a-41fbda23e61c",
+      "1e798170-21be-4b91-a9d3-76ba81b26a8d"
+    ]
+  },
+  {
+    "student_id": "b9cdcf2d-3bcb-40d4-bd5b-9232e87b5072",
+    "name": "Updated_Name_18",
+    "surname": "Updated_Surname_18",
+    "email": "updated_student18@example.com",
+    "phone_number": "+48 597 781 600",
+    "program_name": "Updated_Program_18",
+    "semester": "8",
+    "study_mode": "Part-time",
+    "courses": [
+      "fe876cb5-cdce-4e9e-a622-ac7906575a39",
+      "1b28aa47-d5cd-4eb1-9988-cd3f9f9e4c09",
+      "cae71fdd-c445-4736-8b42-0b738c2f5992",
+      "c6f2bbdc-3b95-4ce0-b7a7-6c7e0b78f707"
+    ]
+  },
+  {
+    "student_id": "1e5bb5b4-42c0-4bfa-84f0-9f97dc6bbc05",
+    "name": "Updated_Name_19",
+    "surname": "Updated_Surname_19",
+    "email": "updated_student19@example.com",
+    "phone_number": "+48 858 273 919",
+    "program_name": "Updated_Program_19",
+    "semester": "8",
+    "study_mode": "Part-time",
+    "courses": [
+      "88904a3b-9bbe-4b68-857f-6f9a9a380d12",
+      "f53be254-e413-4caa-bd3b-9f56b9ef2fa7",
+      "0a9e7154-b98f-4f8c-b20e-1fa27e5db88c"
+    ]
+  },
+  {
+    "student_id": "ef08ae52-6d37-43c6-9a5e-26184f27be71",
+    "name": "Updated_Name_20",
+    "surname": "Updated_Surname_20",
+    "email": "updated_student20@example.com",
+    "phone_number": "+48 246 738 995",
+    "program_name": "Updated_Program_20",
+    "semester": "8",
+    "study_mode": "Full-time",
+    "courses": [
+      "7aade021-efe0-4a0c-8ba5-280a83630a0d"
+    ]
+  },
+  {
+    "student_id": "df644a1c-9288-4edb-99fd-632c8a4769b7",
+    "name": "Updated_Name_21",
+    "surname": "Updated_Surname_21",
+    "email": "updated_student21@example.com",
+    "phone_number": "+48 509 669 656",
+    "program_name": "Updated_Program_21",
+    "semester": "6",
+    "study_mode": "Full-time",
+    "courses": [
+      "50b1dd14-8e0f-4404-bfe2-fa1e6ab93a3b"
+    ]
+  },
+  {
+    "student_id": "98bb1657-e029-4dd4-9cc1-dec50791d944",
+    "name": "Updated_Name_22",
+    "surname": "Updated_Surname_22",
+    "email": "updated_student22@example.com",
+    "phone_number": "+48 951 800 691",
+    "program_name": "Updated_Program_22",
+    "semester": "1",
+    "study_mode": "Part-time",
+    "courses": [
+      "428f649f-41c0-4075-9602-41a527a13380",
+      "b53a8d22-20ff-4dba-a579-b6c1b77a8ca0",
+      "0f91ba0e-f4d8-43e1-ad87-cd4407bfc74e"
+    ]
+  },
+  {
+    "student_id": "54795bbc-bc73-4229-9b93-f377297cf028",
+    "name": "Updated_Name_23",
+    "surname": "Updated_Surname_23",
+    "email": "updated_student23@example.com",
+    "phone_number": "+48 251 285 967",
+    "program_name": "Updated_Program_23",
+    "semester": "10",
+    "study_mode": "Part-time",
+    "courses": [
+      "f6f28be6-0d58-4c2a-8066-13e386ad74f5"
+    ]
+  },
+  {
+    "student_id": "7218a860-84b9-4554-872a-e7b18c7a49f3",
+    "name": "Updated_Name_24",
+    "surname": "Updated_Surname_24",
+    "email": "updated_student24@example.com",
+    "phone_number": "+48 794 301 909",
+    "program_name": "Updated_Program_24",
+    "semester": "8",
+    "study_mode": "Part-time",
+    "courses": [
+      "7d34cc89-628c-454e-abff-309fc408588e",
+      "4beaf9fa-9649-4788-ab79-63cc4fd6d271"
+    ]
+  },
+  {
+    "student_id": "e093636d-c89a-45c8-8b46-8444b0a5e77b",
+    "name": "Updated_Name_25",
+    "surname": "Updated_Surname_25",
+    "email": "updated_student25@example.com",
+    "phone_number": "+48 846 828 700",
+    "program_name": "Updated_Program_25",
+    "semester": "8",
+    "study_mode": "Part-time",
+    "courses": [
+      "6e655ebb-6e2f-40a1-ad52-baa5ddbe15c9",
+      "8dfb153f-184e-4f47-a50a-2cfa6345d087"
+    ]
+  },
+  {
+    "student_id": "6cc51b5b-0fad-49d5-bcf0-27527a9bc379",
+    "name": "Updated_Name_26",
+    "surname": "Updated_Surname_26",
+    "email": "updated_student26@example.com",
+    "phone_number": "+48 984 711 755",
+    "program_name": "Updated_Program_26",
+    "semester": "10",
+    "study_mode": "Part-time",
+    "courses": [
+      "e52a15b7-de19-40ee-8686-2ec9cd45c273",
+      "b5321ed8-0365-45d3-a221-e2657f7a12ff",
+      "4dd73229-3ad7-4d8a-b4bf-66220ec598c1"
+    ]
+  },
+  {
+    "student_id": "6991fc84-2204-46fe-94d0-3ea72ec7faed",
+    "name": "Updated_Name_27",
+    "surname": "Updated_Surname_27",
+    "email": "updated_student27@example.com",
+    "phone_number": "+48 751 580 112",
+    "program_name": "Updated_Program_27",
+    "semester": "4",
+    "study_mode": "Part-time",
+    "courses": [
+      "6c14c3e5-5191-4423-b57a-e4a97e9b8f15"
+    ]
+  },
+  {
+    "student_id": "5d050e1e-a776-4ddd-90bd-1972db352352",
+    "name": "Updated_Name_28",
+    "surname": "Updated_Surname_28",
+    "email": "updated_student28@example.com",
+    "phone_number": "+48 618 146 286",
+    "program_name": "Updated_Program_28",
+    "semester": "5",
+    "study_mode": "Part-time",
+    "courses": [
+      "9ea01cc8-9609-411d-b37d-bdbaed839589",
+      "806b48d8-ee4b-4265-8a38-8298f4d43e66"
+    ]
+  },
+  {
+    "student_id": "9a597ad0-3923-4303-9052-63e61d943ed3",
+    "name": "Updated_Name_29",
+    "surname": "Updated_Surname_29",
+    "email": "updated_student29@example.com",
+    "phone_number": "+48 854 350 537",
+    "program_name": "Updated_Program_29",
+    "semester": "4",
+    "study_mode": "Full-time",
+    "courses": [
+      "e4dc41e4-837c-4f93-8b24-629d57c25e9b"
+    ]
+  },
+  {
+    "student_id": "a91cdbad-bc52-4679-b921-961613e90810",
+    "name": "Updated_Name_30",
+    "surname": "Updated_Surname_30",
+    "email": "updated_student30@example.com",
+    "phone_number": "+48 194 389 825",
+    "program_name": "Updated_Program_30",
+    "semester": "10",
+    "study_mode": "Part-time",
+    "courses": [
+      "c2c941e5-55b4-4bf3-bac6-d4feb72e214f",
+      "d9435987-2314-4681-9339-62d9a848c877"
+    ]
+  },
+  {
+    "student_id": "f813cee1-2eb7-4ea1-ab79-a3d98e034b19",
+    "name": "Updated_Name_31",
+    "surname": "Updated_Surname_31",
+    "email": "updated_student31@example.com",
+    "phone_number": "+48 715 961 417",
+    "program_name": "Updated_Program_31",
+    "semester": "6",
+    "study_mode": "Part-time",
+    "courses": [
+      "f8d3f3eb-713b-4c65-9dde-79ba334949e5",
+      "de4b7eab-a501-4426-bd8c-3cb8c2d81f2a"
+    ]
+  },
+  {
+    "student_id": "396208b1-5976-4d25-a4db-059a5c33ffbd",
+    "name": "Updated_Name_32",
+    "surname": "Updated_Surname_32",
+    "email": "updated_student32@example.com",
+    "phone_number": "+48 465 681 812",
+    "program_name": "Updated_Program_32",
+    "semester": "3",
+    "study_mode": "Part-time",
+    "courses": [
+      "659d115e-5142-4ba6-b6f0-e495a76eb6f3"
+    ]
+  },
+  {
+    "student_id": "218e34a5-86f6-4988-8238-c218aa637723",
+    "name": "Updated_Name_33",
+    "surname": "Updated_Surname_33",
+    "email": "updated_student33@example.com",
+    "phone_number": "+48 354 709 240",
+    "program_name": "Updated_Program_33",
+    "semester": "6",
+    "study_mode": "Part-time",
+    "courses": [
+      "29afcf3a-a2ab-4db0-a4af-b9165afbd194",
+      "8adc2b9b-cdaa-4e65-8686-e4b93a9065cf",
+      "a913d345-c441-4f5c-b594-3b4a350c923e",
+      "14e765b2-297a-4ba5-92ed-a8b138347e4d"
+    ]
+  },
+  {
+    "student_id": "e8032d97-53eb-43ea-a018-5031ffcdddd8",
+    "name": "Updated_Name_34",
+    "surname": "Updated_Surname_34",
+    "email": "updated_student34@example.com",
+    "phone_number": "+48 154 638 195",
+    "program_name": "Updated_Program_34",
+    "semester": "4",
+    "study_mode": "Part-time",
+    "courses": [
+      "8f60503d-2318-438d-b38c-e19f94c80da9",
+      "7dec643c-8cb3-43c8-a947-9e185a37f949",
+      "a53115c7-6fa2-4e89-a3e7-d989b9337a72",
+      "6a4a1b9d-e624-4f68-94aa-3a5dc311bc46"
+    ]
+  },
+  {
+    "student_id": "23c089b4-7ad9-4ac3-bcff-57fdf146ae51",
+    "name": "Updated_Name_35",
+    "surname": "Updated_Surname_35",
+    "email": "updated_student35@example.com",
+    "phone_number": "+48 192 987 380",
+    "program_name": "Updated_Program_35",
+    "semester": "1",
+    "study_mode": "Part-time",
+    "courses": [
+      "b6e4596d-4557-446b-bb7d-186d332c6430",
+      "d93f20dc-41b3-4e9a-a0ec-89529df55554",
+      "9ad4aab3-095c-4a88-882e-1d3419fda1f6"
+    ]
+  },
+  {
+    "student_id": "a7628acb-a7e5-44a7-a7d6-f96e5e5f145c",
+    "name": "Updated_Name_36",
+    "surname": "Updated_Surname_36",
+    "email": "updated_student36@example.com",
+    "phone_number": "+48 164 380 278",
+    "program_name": "Updated_Program_36",
+    "semester": "3",
+    "study_mode": "Part-time",
+    "courses": [
+      "c1752017-01ef-425e-8553-64ed5f2b702e",
+      "d677fa70-9cdb-4d7f-b7fd-cff14b55d6e2",
+      "7512dd72-e05e-4eb4-a5ce-80d5c6b8a25b"
+    ]
+  },
+  {
+    "student_id": "381bdacb-f717-440b-80dc-28f5eb3ed339",
+    "name": "Updated_Name_37",
+    "surname": "Updated_Surname_37",
+    "email": "updated_student37@example.com",
+    "phone_number": "+48 612 937 646",
+    "program_name": "Updated_Program_37",
+    "semester": "5",
+    "study_mode": "Full-time",
+    "courses": [
+      "a35e5433-783c-481a-b500-f84c93385b4a",
+      "b8f44024-8b58-40b1-b7e3-d58564d4d5ce"
+    ]
+  },
+  {
+    "student_id": "78899210-228e-4842-809d-18a750b88730",
+    "name": "Updated_Name_38",
+    "surname": "Updated_Surname_38",
+    "email": "updated_student38@example.com",
+    "phone_number": "+48 940 303 168",
+    "program_name": "Updated_Program_38",
+    "semester": "9",
+    "study_mode": "Full-time",
+    "courses": [
+      "945dae8a-974c-493e-bbbf-3031fa494d15",
+      "c2159d79-5cf5-455a-8013-242b48c0b7d7"
+    ]
+  },
+  {
+    "student_id": "81e93b3d-c209-464e-91c4-8466ac7f21d9",
+    "name": "Updated_Name_39",
+    "surname": "Updated_Surname_39",
+    "email": "updated_student39@example.com",
+    "phone_number": "+48 750 532 815",
+    "program_name": "Updated_Program_39",
+    "semester": "4",
+    "study_mode": "Part-time",
+    "courses": [
+      "77dde167-69c8-454d-b43a-06eb2479dc83"
+    ]
+  },
+  {
+    "student_id": "eeaa1720-9017-4a00-a525-2d52d7167321",
+    "name": "Updated_Name_40",
+    "surname": "Updated_Surname_40",
+    "email": "updated_student40@example.com",
+    "phone_number": "+48 403 620 558",
+    "program_name": "Updated_Program_40",
+    "semester": "7",
+    "study_mode": "Part-time",
+    "courses": [
+      "d9435987-2314-4681-9339-62d9a848c877",
+      "3d739853-5c05-437a-b307-4a666b89ca6a",
+      "a985d3a8-123e-42ce-8319-e848ba05a414"
+    ]
+  },
+  {
+    "student_id": "e01f3c13-1f1d-47a5-b72f-24bfab2e4a41",
+    "name": "Updated_Name_41",
+    "surname": "Updated_Surname_41",
+    "email": "updated_student41@example.com",
+    "phone_number": "+48 591 658 691",
+    "program_name": "Updated_Program_41",
+    "semester": "2",
+    "study_mode": "Part-time",
+    "courses": [
+      "4016f029-5835-4568-a341-4cd70f56207f",
+      "36c16654-16db-4803-ac2d-71070c221089",
+      "7b601903-f47e-4889-86da-96916a669e7c"
+    ]
+  },
+  {
+    "student_id": "94112045-77a4-4f44-8a1c-38c1b384d569",
+    "name": "Updated_Name_42",
+    "surname": "Updated_Surname_42",
+    "email": "updated_student42@example.com",
+    "phone_number": "+48 668 714 776",
+    "program_name": "Updated_Program_42",
+    "semester": "8",
+    "study_mode": "Full-time",
+    "courses": [
+      "e5b411ce-e119-43cd-8cb6-0bb996780820",
+      "cc8183fc-79aa-4794-87f6-2f9e79b88be2"
+    ]
+  },
+  {
+    "student_id": "ce30cfc4-26cb-40e3-a255-e384b1f7057b",
+    "name": "Updated_Name_43",
+    "surname": "Updated_Surname_43",
+    "email": "updated_student43@example.com",
+    "phone_number": "+48 369 342 297",
+    "program_name": "Updated_Program_43",
+    "semester": "5",
+    "study_mode": "Part-time",
+    "courses": [
+      "6e655ebb-6e2f-40a1-ad52-baa5ddbe15c9"
+    ]
+  },
+  {
+    "student_id": "1621aa25-ec13-4a66-a530-2f8a232f9277",
+    "name": "Updated_Name_44",
+    "surname": "Updated_Surname_44",
+    "email": "updated_student44@example.com",
+    "phone_number": "+48 538 439 691",
+    "program_name": "Updated_Program_44",
+    "semester": "5",
+    "study_mode": "Full-time",
+    "courses": [
+      "b880b44f-f9e0-4fb0-a58d-39853a89bcb0",
+      "1ab6cf57-5f1c-4183-ba12-d5dd6bb57026",
+      "7ce8575f-0358-434d-a19d-e6c5c9558dfe",
+      "ef31b11e-d97b-4bc0-a70a-11210535453d"
+    ]
+  },
+  {
+    "student_id": "8fabcb40-5eff-449d-8986-033b5d73f5f8",
+    "name": "Updated_Name_45",
+    "surname": "Updated_Surname_45",
+    "email": "updated_student45@example.com",
+    "phone_number": "+48 658 414 381",
+    "program_name": "Updated_Program_45",
+    "semester": "7",
+    "study_mode": "Part-time",
+    "courses": [
+      "dca5b93d-6fe1-45d5-ab14-9aed4017634a",
+      "c1a783c0-4450-4f08-bc3f-a60037a521bf",
+      "df5895ce-089e-4327-8430-3e90e8cea7df"
+    ]
+  },
+  {
+    "student_id": "494ce38c-226d-421d-9794-166c0c65dd61",
+    "name": "Updated_Name_46",
+    "surname": "Updated_Surname_46",
+    "email": "updated_student46@example.com",
+    "phone_number": "+48 288 758 284",
+    "program_name": "Updated_Program_46",
+    "semester": "8",
+    "study_mode": "Part-time",
+    "courses": [
+      "655f4b87-e236-43ea-8d88-9543321a07c7",
+      "de4b7eab-a501-4426-bd8c-3cb8c2d81f2a"
+    ]
+  },
+  {
+    "student_id": "ac3de595-7857-476f-b9b9-06dd5d21211c",
+    "name": "Updated_Name_47",
+    "surname": "Updated_Surname_47",
+    "email": "updated_student47@example.com",
+    "phone_number": "+48 364 520 299",
+    "program_name": "Updated_Program_47",
+    "semester": "9",
+    "study_mode": "Part-time",
+    "courses": [
+      "2fa30c58-1c3f-470c-bc36-ed307a5e58f5",
+      "b56f9a6b-fa02-4014-9fae-dee723175920",
+      "66816eec-4de6-4ac4-9538-dbe3b7983501"
+    ]
+  },
+  {
+    "student_id": "6ae4d1d5-5759-4b2d-b178-cd5275b5af91",
+    "name": "Updated_Name_48",
+    "surname": "Updated_Surname_48",
+    "email": "updated_student48@example.com",
+    "phone_number": "+48 498 624 702",
+    "program_name": "Updated_Program_48",
+    "semester": "8",
+    "study_mode": "Full-time",
+    "courses": [
+      "dfac5569-b66c-4bb4-a729-56bebf35cb04",
+      "244e276b-f6bd-41de-af5d-af7ef409ceaf"
+    ]
+  },
+  {
+    "student_id": "70ae7f6c-837a-4429-9535-da0e47e195a4",
+    "name": "Updated_Name_49",
+    "surname": "Updated_Surname_49",
+    "email": "updated_student49@example.com",
+    "phone_number": "+48 347 163 162",
+    "program_name": "Updated_Program_49",
+    "semester": "6",
+    "study_mode": "Part-time",
+    "courses": [
+      "111ea52a-ab0e-42a4-a4de-09e0979b15f0",
+      "e1fdff19-58c9-4243-be28-532a81b9764f",
+      "49984e35-3f75-4280-8fe6-d515f3fb0d00"
+    ]
+  },
+  {
+    "student_id": "bc6d4b71-068a-4bf3-9f23-38e8340f7a2e",
+    "name": "Updated_Name_50",
+    "surname": "Updated_Surname_50",
+    "email": "updated_student50@example.com",
+    "phone_number": "+48 257 224 275",
+    "program_name": "Updated_Program_50",
+    "semester": "10",
+    "study_mode": "Part-time",
+    "courses": [
+      "b3da7c0d-c3dc-4884-b6ba-ec1f2db18859",
+      "9e5e0c2f-edd3-4319-9a32-a6d83fa798ae",
+      "393db047-e227-4cff-8ded-78dcd6c31029"
+    ]
+  },
+  {
+    "student_id": "3ba5bf18-0644-425c-b70c-744913423ce1",
+    "name": "Updated_Name_51",
+    "surname": "Updated_Surname_51",
+    "email": "updated_student51@example.com",
+    "phone_number": "+48 104 768 483",
+    "program_name": "Updated_Program_51",
+    "semester": "4",
+    "study_mode": "Part-time",
+    "courses": [
+      "9514e574-df6e-4249-a24b-8638621b679d",
+      "b53a8d22-20ff-4dba-a579-b6c1b77a8ca0",
+      "be21e9f8-4221-4cbb-82ae-2679c7f0e902"
+    ]
+  },
+  {
+    "student_id": "ed497422-e8e8-4f65-a489-05adaf1cda9f",
+    "name": "Updated_Name_52",
+    "surname": "Updated_Surname_52",
+    "email": "updated_student52@example.com",
+    "phone_number": "+48 707 443 436",
+    "program_name": "Updated_Program_52",
+    "semester": "3",
+    "study_mode": "Full-time",
+    "courses": [
+      "8f8e8ed8-5a66-4519-85a1-4c91f9f517a9"
+    ]
+  },
+  {
+    "student_id": "63e01624-44b6-409b-b7b2-4df33fe8e0f4",
+    "name": "Updated_Name_53",
+    "surname": "Updated_Surname_53",
+    "email": "updated_student53@example.com",
+    "phone_number": "+48 586 686 495",
+    "program_name": "Updated_Program_53",
+    "semester": "8",
+    "study_mode": "Full-time",
+    "courses": [
+      "ca7dead5-ff30-4f85-bba2-17f08dd4047f"
+    ]
+  },
+  {
+    "student_id": "108572d1-b795-425b-9a1c-507c106cf0c0",
+    "name": "Updated_Name_54",
+    "surname": "Updated_Surname_54",
+    "email": "updated_student54@example.com",
+    "phone_number": "+48 172 527 446",
+    "program_name": "Updated_Program_54",
+    "semester": "6",
+    "study_mode": "Part-time",
+    "courses": [
+      "b2425638-e6f1-4468-be7a-6a089ab1012f"
+    ]
+  },
+  {
+    "student_id": "f22660d1-db76-41b6-97d4-6b15bda6a0c1",
+    "name": "Updated_Name_55",
+    "surname": "Updated_Surname_55",
+    "email": "updated_student55@example.com",
+    "phone_number": "+48 983 343 954",
+    "program_name": "Updated_Program_55",
+    "semester": "9",
+    "study_mode": "Part-time",
+    "courses": [
+      "0ed2f5c1-92d7-4c16-9080-8f65d9d20935",
+      "7ed875c6-29b9-487b-8207-69890c08e469"
+    ]
+  },
+  {
+    "student_id": "76a3e442-b9ba-4735-a5bc-34d0a1717896",
+    "name": "Updated_Name_56",
+    "surname": "Updated_Surname_56",
+    "email": "updated_student56@example.com",
+    "phone_number": "+48 547 749 965",
+    "program_name": "Updated_Program_56",
+    "semester": "8",
+    "study_mode": "Part-time",
+    "courses": [
+      "3a451de2-f769-493e-b69a-da0dabf34fcb",
+      "c5069b66-85bc-4da3-9613-c18922323734",
+      "7a9ae0f0-7ad0-4fa0-a608-4cd9c009d1ac"
+    ]
+  },
+  {
+    "student_id": "19230e02-1dc0-469d-99a6-a9ed16ad5b0f",
+    "name": "Updated_Name_57",
+    "surname": "Updated_Surname_57",
+    "email": "updated_student57@example.com",
+    "phone_number": "+48 485 274 830",
+    "program_name": "Updated_Program_57",
+    "semester": "6",
+    "study_mode": "Part-time",
+    "courses": [
+      "6c9e782e-b554-4355-9398-c3fd5125dbba",
+      "08519e7a-6efb-469c-b103-1b7b3da67bc8",
+      "83026492-1f29-4454-b85b-150d1997c87c",
+      "8f282234-4fc1-428a-a2a3-14076ddeb8ef"
+    ]
+  },
+  {
+    "student_id": "a0faa0b6-4c25-429d-b56f-7699901cab2f",
+    "name": "Updated_Name_58",
+    "surname": "Updated_Surname_58",
+    "email": "updated_student58@example.com",
+    "phone_number": "+48 311 751 724",
+    "program_name": "Updated_Program_58",
+    "semester": "3",
+    "study_mode": "Part-time",
+    "courses": [
+      "165be639-983e-4422-9bd0-b88abd8f4593"
+    ]
+  },
+  {
+    "student_id": "e589c3e2-df6c-43f7-aedd-b71ded1e9db5",
+    "name": "Updated_Name_59",
+    "surname": "Updated_Surname_59",
+    "email": "updated_student59@example.com",
+    "phone_number": "+48 162 661 894",
+    "program_name": "Updated_Program_59",
+    "semester": "8",
+    "study_mode": "Part-time",
+    "courses": [
+      "fdf04e8c-cfad-4feb-b06f-2d93236bb06b"
+    ]
+  },
+  {
+    "student_id": "e8138890-3c30-4358-a1fb-cdf2969012dd",
+    "name": "Updated_Name_60",
+    "surname": "Updated_Surname_60",
+    "email": "updated_student60@example.com",
+    "phone_number": "+48 313 955 483",
+    "program_name": "Updated_Program_60",
+    "semester": "6",
+    "study_mode": "Full-time",
+    "courses": [
+      "d2cec1f7-4155-4e5f-a417-c4699e29c5c6",
+      "13c6a281-427a-4be8-86ec-2926a4b321dd"
+    ]
+  },
+  {
+    "student_id": "5f5a26e5-f4db-49de-8847-f3bd58e04f57",
+    "name": "Updated_Name_61",
+    "surname": "Updated_Surname_61",
+    "email": "updated_student61@example.com",
+    "phone_number": "+48 489 681 424",
+    "program_name": "Updated_Program_61",
+    "semester": "3",
+    "study_mode": "Part-time",
+    "courses": [
+      "3eeda2cc-9a41-4b6b-a484-f894f09c1495"
+    ]
+  },
+  {
+    "student_id": "c8c3dfee-bf71-42cc-bcc9-730e622fc6ac",
+    "name": "Updated_Name_62",
+    "surname": "Updated_Surname_62",
+    "email": "updated_student62@example.com",
+    "phone_number": "+48 812 912 845",
+    "program_name": "Updated_Program_62",
+    "semester": "6",
+    "study_mode": "Part-time",
+    "courses": [
+      "f53be254-e413-4caa-bd3b-9f56b9ef2fa7",
+      "945dae8a-974c-493e-bbbf-3031fa494d15",
+      "ea11ec19-a660-48de-b105-d8b868b215e0"
+    ]
+  },
+  {
+    "student_id": "cf1825b4-f3ee-4582-8d8b-9aee0783d808",
+    "name": "Updated_Name_63",
+    "surname": "Updated_Surname_63",
+    "email": "updated_student63@example.com",
+    "phone_number": "+48 313 888 585",
+    "program_name": "Updated_Program_63",
+    "semester": "6",
+    "study_mode": "Part-time",
+    "courses": [
+      "e7881ef1-0487-4070-a967-50b59c68cc98"
+    ]
+  },
+  {
+    "student_id": "d3a66338-14e5-4f5b-88a5-88fa569268b1",
+    "name": "Updated_Name_64",
+    "surname": "Updated_Surname_64",
+    "email": "updated_student64@example.com",
+    "phone_number": "+48 723 213 946",
+    "program_name": "Updated_Program_64",
+    "semester": "10",
+    "study_mode": "Full-time",
+    "courses": [
+      "0ed2550b-e859-4106-84de-aa7b845ab156",
+      "0da1af27-6d3c-4802-beb2-fb49f1e95093"
+    ]
+  },
+  {
+    "student_id": "079dc384-458b-42fa-bce5-cd272ddb7b10",
+    "name": "Updated_Name_65",
+    "surname": "Updated_Surname_65",
+    "email": "updated_student65@example.com",
+    "phone_number": "+48 955 607 754",
+    "program_name": "Updated_Program_65",
+    "semester": "2",
+    "study_mode": "Full-time",
+    "courses": [
+      "f9b99b5f-1b19-43b7-b638-4832c2205739",
+      "d677fa70-9cdb-4d7f-b7fd-cff14b55d6e2"
+    ]
+  },
+  {
+    "student_id": "6de31d7f-b557-4e71-b623-9a3577ab7adf",
+    "name": "Updated_Name_66",
+    "surname": "Updated_Surname_66",
+    "email": "updated_student66@example.com",
+    "phone_number": "+48 402 670 809",
+    "program_name": "Updated_Program_66",
+    "semester": "9",
+    "study_mode": "Full-time",
+    "courses": [
+      "1baeb3a1-4409-4582-b03b-5891ef91359c"
+    ]
+  },
+  {
+    "student_id": "43f6a0b1-bc15-4134-a3bf-afa6f19cc721",
+    "name": "Updated_Name_67",
+    "surname": "Updated_Surname_67",
+    "email": "updated_student67@example.com",
+    "phone_number": "+48 934 705 183",
+    "program_name": "Updated_Program_67",
+    "semester": "4",
+    "study_mode": "Part-time",
+    "courses": [
+      "81e42a26-e2e6-4ad2-9894-010d468bea7f",
+      "a913d345-c441-4f5c-b594-3b4a350c923e"
+    ]
+  },
+  {
+    "student_id": "c29988ff-3507-42cf-98c0-1675a29bfc52",
+    "name": "Updated_Name_68",
+    "surname": "Updated_Surname_68",
+    "email": "updated_student68@example.com",
+    "phone_number": "+48 968 824 929",
+    "program_name": "Updated_Program_68",
+    "semester": "7",
+    "study_mode": "Part-time",
+    "courses": [
+      "4362630d-e516-4b4b-93cf-d672d60d1d4a",
+      "b18ad5c5-2536-4e93-b754-91213907287d",
+      "52159c91-9242-4e04-8ebf-45602b549713",
+      "501999f0-a835-4616-b1d3-6b769da39251"
+    ]
+  },
+  {
+    "student_id": "6396017d-847b-4758-9030-146c0d243ad0",
+    "name": "Updated_Name_69",
+    "surname": "Updated_Surname_69",
+    "email": "updated_student69@example.com",
+    "phone_number": "+48 248 232 348",
+    "program_name": "Updated_Program_69",
+    "semester": "1",
+    "study_mode": "Part-time",
+    "courses": [
+      "051018bd-ee44-4f0d-8ead-06bbaab1aac2",
+      "0720943a-d526-4318-a761-1b6246ffa81e",
+      "7059aa19-d12d-4d13-91f6-c37c658d0ed4",
+      "8d2da2cc-51c2-4f56-b6d7-780e964d0cc2"
+    ]
+  },
+  {
+    "student_id": "2c2b0c93-148d-4b16-b231-5d60128b01bf",
+    "name": "Updated_Name_70",
+    "surname": "Updated_Surname_70",
+    "email": "updated_student70@example.com",
+    "phone_number": "+48 272 115 674",
+    "program_name": "Updated_Program_70",
+    "semester": "3",
+    "study_mode": "Part-time",
+    "courses": [
+      "c137a078-c455-4e2e-abe1-94585dd9eb95"
+    ]
+  },
+  {
+    "student_id": "2e6e3faa-b63d-4bb1-9649-d7c926a0a2fe",
+    "name": "Updated_Name_71",
+    "surname": "Updated_Surname_71",
+    "email": "updated_student71@example.com",
+    "phone_number": "+48 743 429 946",
+    "program_name": "Updated_Program_71",
+    "semester": "9",
+    "study_mode": "Full-time",
+    "courses": [
+      "48e4a79d-b7d4-4000-94f0-5fae38930e6e",
+      "1c26a497-f5fc-49a7-8dc1-1181b2905322",
+      "7bbe5e38-0bfe-4081-bb81-a1ccf7eba7cc"
+    ]
+  },
+  {
+    "student_id": "ab2cd31f-1953-44d1-af5f-052157712fb9",
+    "name": "Updated_Name_72",
+    "surname": "Updated_Surname_72",
+    "email": "updated_student72@example.com",
+    "phone_number": "+48 131 151 665",
+    "program_name": "Updated_Program_72",
+    "semester": "5",
+    "study_mode": "Full-time",
+    "courses": [
+      "11d049b4-11fc-4627-b69a-3de9030f3da2"
+    ]
+  },
+  {
+    "student_id": "23683dc8-c0ea-457c-a9b8-a76fbfeef78d",
+    "name": "Updated_Name_73",
+    "surname": "Updated_Surname_73",
+    "email": "updated_student73@example.com",
+    "phone_number": "+48 769 954 466",
+    "program_name": "Updated_Program_73",
+    "semester": "5",
+    "study_mode": "Full-time",
+    "courses": [
+      "7901c643-114f-49ca-9a86-95e126378d21",
+      "f5ce1a42-d7e6-4ac8-846b-f60a9f812feb",
+      "a70ecf17-5a03-43fa-9170-4ddeabee2a7b",
+      "2660d29e-2c82-4133-9eab-05533e67d94e"
+    ]
+  },
+  {
+    "student_id": "498cf977-d244-44f7-8c71-66e17e471a07",
+    "name": "Updated_Name_74",
+    "surname": "Updated_Surname_74",
+    "email": "updated_student74@example.com",
+    "phone_number": "+48 447 887 473",
+    "program_name": "Updated_Program_74",
+    "semester": "6",
+    "study_mode": "Full-time",
+    "courses": [
+      "8a7d4bf4-7d86-4eb8-b21f-e06d7a05cced"
+    ]
+  },
+  {
+    "student_id": "aac39b94-3790-4fbc-9921-c2e305b1a111",
+    "name": "Updated_Name_75",
+    "surname": "Updated_Surname_75",
+    "email": "updated_student75@example.com",
+    "phone_number": "+48 585 701 568",
+    "program_name": "Updated_Program_75",
+    "semester": "1",
+    "study_mode": "Full-time",
+    "courses": [
+      "ee6b8e20-3a86-433d-b068-3ba0d7abc733"
+    ]
+  },
+  {
+    "student_id": "83f5b49b-8a11-448f-93c2-f99277e47f6c",
+    "name": "Updated_Name_76",
+    "surname": "Updated_Surname_76",
+    "email": "updated_student76@example.com",
+    "phone_number": "+48 895 680 762",
+    "program_name": "Updated_Program_76",
+    "semester": "3",
+    "study_mode": "Part-time",
+    "courses": [
+      "256252d7-0793-4e90-b624-2dd7a946cb33",
+      "0e84e130-0c4e-47ad-b5b3-f23dd5c4686f"
+    ]
+  },
+  {
+    "student_id": "cd1b6504-1379-494f-9bf3-867d37f23e5a",
+    "name": "Updated_Name_77",
+    "surname": "Updated_Surname_77",
+    "email": "updated_student77@example.com",
+    "phone_number": "+48 680 649 767",
+    "program_name": "Updated_Program_77",
+    "semester": "7",
+    "study_mode": "Full-time",
+    "courses": [
+      "9a49ecac-0cb5-435c-bdad-4747d4a8e270"
+    ]
+  },
+  {
+    "student_id": "700b14bb-7583-4ce8-a037-1e108c876942",
+    "name": "Updated_Name_78",
+    "surname": "Updated_Surname_78",
+    "email": "updated_student78@example.com",
+    "phone_number": "+48 201 448 150",
+    "program_name": "Updated_Program_78",
+    "semester": "7",
+    "study_mode": "Part-time",
+    "courses": [
+      "fab65da3-b125-4d55-863d-d6d3e115e158",
+      "c1752017-01ef-425e-8553-64ed5f2b702e",
+      "b9b85017-19a5-4487-8de9-8363e2ae48e2"
+    ]
+  },
+  {
+    "student_id": "9461c277-52eb-44a1-b832-b223469a478b",
+    "name": "Updated_Name_79",
+    "surname": "Updated_Surname_79",
+    "email": "updated_student79@example.com",
+    "phone_number": "+48 743 427 950",
+    "program_name": "Updated_Program_79",
+    "semester": "6",
+    "study_mode": "Full-time",
+    "courses": [
+      "01a6fc10-5e93-4542-b1f7-8ce5e3238934",
+      "b880b44f-f9e0-4fb0-a58d-39853a89bcb0",
+      "5ad81e99-8944-4f70-99f0-b2da4f50de11",
+      "fc29e2ef-b8a1-4d5d-93af-c761e46bd1c1"
+    ]
+  },
+  {
+    "student_id": "9e8ff401-6afa-4fa0-891d-48329c23c1b6",
+    "name": "Updated_Name_80",
+    "surname": "Updated_Surname_80",
+    "email": "updated_student80@example.com",
+    "phone_number": "+48 665 357 407",
+    "program_name": "Updated_Program_80",
+    "semester": "10",
+    "study_mode": "Part-time",
+    "courses": [
+      "4dd73229-3ad7-4d8a-b4bf-66220ec598c1",
+      "82d2ec17-76ed-4099-b067-1d817341fd3d"
+    ]
+  },
+  {
+    "student_id": "099db3d3-7cce-45ad-926a-45d587784df4",
+    "name": "Updated_Name_81",
+    "surname": "Updated_Surname_81",
+    "email": "updated_student81@example.com",
+    "phone_number": "+48 505 565 545",
+    "program_name": "Updated_Program_81",
+    "semester": "4",
+    "study_mode": "Full-time",
+    "courses": [
+      "7b5dbf83-4086-4b2a-a550-c1962e11bd46"
+    ]
+  },
+  {
+    "student_id": "55e81164-4b50-4237-8627-fa3a4c7aa6fa",
+    "name": "Updated_Name_82",
+    "surname": "Updated_Surname_82",
+    "email": "updated_student82@example.com",
+    "phone_number": "+48 334 247 963",
+    "program_name": "Updated_Program_82",
+    "semester": "7",
+    "study_mode": "Full-time",
+    "courses": [
+      "21ec156b-b961-488a-843a-48b506a12eaf"
+    ]
+  },
+  {
+    "student_id": "7c042a71-89b4-4a4e-8c25-08343aca363b",
+    "name": "Updated_Name_83",
+    "surname": "Updated_Surname_83",
+    "email": "updated_student83@example.com",
+    "phone_number": "+48 789 922 433",
+    "program_name": "Updated_Program_83",
+    "semester": "10",
+    "study_mode": "Full-time",
+    "courses": [
+      "a8fcb2ff-34cb-4290-bed9-fc7c68a739b2"
+    ]
+  },
+  {
+    "student_id": "d03797e6-0788-4f59-8a88-e4ad437426b5",
+    "name": "Updated_Name_84",
+    "surname": "Updated_Surname_84",
+    "email": "updated_student84@example.com",
+    "phone_number": "+48 760 253 312",
+    "program_name": "Updated_Program_84",
+    "semester": "9",
+    "study_mode": "Full-time",
+    "courses": [
+      "807c6364-792f-4b1f-976e-ae69b601ce6f",
+      "c265f632-d284-4364-8194-c57707110a93"
+    ]
+  },
+  {
+    "student_id": "9cd29563-869f-424c-a46b-a5adf3c2624c",
+    "name": "Updated_Name_85",
+    "surname": "Updated_Surname_85",
+    "email": "updated_student85@example.com",
+    "phone_number": "+48 447 715 406",
+    "program_name": "Updated_Program_85",
+    "semester": "1",
+    "study_mode": "Full-time",
+    "courses": [
+      "6dd7a35e-7fbd-4f36-a03d-086ebe20bd8e"
+    ]
+  },
+  {
+    "student_id": "553f44b7-4fea-461e-93e3-a1c267d2dcf0",
+    "name": "Updated_Name_86",
+    "surname": "Updated_Surname_86",
+    "email": "updated_student86@example.com",
+    "phone_number": "+48 919 407 447",
+    "program_name": "Updated_Program_86",
+    "semester": "5",
+    "study_mode": "Full-time",
+    "courses": [
+      "6c40395b-72c4-486e-b885-95f30a426936"
+    ]
+  },
+  {
+    "student_id": "0b86f870-9808-4f90-9101-03eea17d21ba",
+    "name": "Updated_Name_87",
+    "surname": "Updated_Surname_87",
+    "email": "updated_student87@example.com",
+    "phone_number": "+48 922 363 381",
+    "program_name": "Updated_Program_87",
+    "semester": "7",
+    "study_mode": "Full-time",
+    "courses": [
+      "6904b7d0-3ac0-4016-bd3f-156ef32551af",
+      "2fb7b6e5-838b-41ff-b932-8bab61bacd4a",
+      "a985d3a8-123e-42ce-8319-e848ba05a414",
+      "8cede380-4209-45fa-a469-fb5516501468"
+    ]
+  },
+  {
+    "student_id": "f4d5d986-9d8a-4819-af8d-72121382c2bc",
+    "name": "Updated_Name_88",
+    "surname": "Updated_Surname_88",
+    "email": "updated_student88@example.com",
+    "phone_number": "+48 645 207 840",
+    "program_name": "Updated_Program_88",
+    "semester": "5",
+    "study_mode": "Part-time",
+    "courses": [
+      "d65533c6-7819-46ab-9543-ae26b9016317",
+      "0d4cc635-20c6-47f1-9156-3400da8dae8b"
+    ]
+  },
+  {
+    "student_id": "36b24489-277a-4f43-a6d6-a048703a3092",
+    "name": "Updated_Name_89",
+    "surname": "Updated_Surname_89",
+    "email": "updated_student89@example.com",
+    "phone_number": "+48 650 858 272",
+    "program_name": "Updated_Program_89",
+    "semester": "4",
+    "study_mode": "Part-time",
+    "courses": [
+      "ad8e5e84-1d1b-4467-a77b-8aecda437ef5",
+      "4845747b-b550-4911-86e7-d03ba8e2f4db",
+      "56730e1f-10ca-4bc8-b413-1ac535c20866"
+    ]
+  },
+  {
+    "student_id": "bebe3cf7-cf0e-4049-95c8-b397ba64fe36",
+    "name": "Updated_Name_90",
+    "surname": "Updated_Surname_90",
+    "email": "updated_student90@example.com",
+    "phone_number": "+48 655 997 419",
+    "program_name": "Updated_Program_90",
+    "semester": "5",
+    "study_mode": "Full-time",
+    "courses": [
+      "8f60503d-2318-438d-b38c-e19f94c80da9"
+    ]
+  },
+  {
+    "student_id": "7111fed4-af4c-4c3e-89ed-88d8b95b9f1c",
+    "name": "Updated_Name_91",
+    "surname": "Updated_Surname_91",
+    "email": "updated_student91@example.com",
+    "phone_number": "+48 164 392 358",
+    "program_name": "Updated_Program_91",
+    "semester": "10",
+    "study_mode": "Part-time",
+    "courses": [
+      "d70ef73e-f5fc-4475-9768-966bb92bb5db",
+      "38756ace-c581-4d65-800b-87274b507c41",
+      "9d5c913f-905f-4aa9-ab3c-3d8d31115057",
+      "d4d1baa5-311c-4148-90b5-547ff4798327"
+    ]
+  },
+  {
+    "student_id": "bd48279f-7645-4511-9817-712f7aaffc6f",
+    "name": "Updated_Name_92",
+    "surname": "Updated_Surname_92",
+    "email": "updated_student92@example.com",
+    "phone_number": "+48 276 765 363",
+    "program_name": "Updated_Program_92",
+    "semester": "7",
+    "study_mode": "Full-time",
+    "courses": [
+      "0a5b2297-b80c-4ea7-b09a-a6eb7533042f",
+      "6b4e471d-97c9-42ed-97c8-e234e7b95ddc",
+      "f7d98b14-ce78-4a98-bd6c-df11b96ca3f8",
+      "85412c05-f653-4e89-ba05-31e14c160301"
+    ]
+  },
+  {
+    "student_id": "99cc03af-c36d-4633-b86e-68452c44a57d",
+    "name": "Updated_Name_93",
+    "surname": "Updated_Surname_93",
+    "email": "updated_student93@example.com",
+    "phone_number": "+48 899 126 854",
+    "program_name": "Updated_Program_93",
+    "semester": "2",
+    "study_mode": "Part-time",
+    "courses": [
+      "2f951246-b49c-4f11-bbee-23e8281eb1fd",
+      "cf47b617-c4b4-4618-b7de-d04942842548",
+      "d677fa70-9cdb-4d7f-b7fd-cff14b55d6e2",
+      "2320ba2a-eb96-4eaf-b6c7-bb9800c17952"
+    ]
+  },
+  {
+    "student_id": "2b325a38-db47-4b48-b1f0-08c086f9fdf9",
+    "name": "Updated_Name_94",
+    "surname": "Updated_Surname_94",
+    "email": "updated_student94@example.com",
+    "phone_number": "+48 729 835 741",
+    "program_name": "Updated_Program_94",
+    "semester": "5",
+    "study_mode": "Full-time",
+    "courses": [
+      "68c668bd-44e3-4f0e-a534-23d4c26cf404",
+      "10f64b00-fc75-473f-8e30-8f1b007c783e",
+      "3878c5ca-b3ae-46e0-ac17-9f9f6a549e92",
+      "8fdb2858-9594-435f-b779-d1d2d22445b2"
+    ]
+  },
+  {
+    "student_id": "5429e1e0-838c-460a-bf9d-666f86fdf6bb",
+    "name": "Updated_Name_95",
+    "surname": "Updated_Surname_95",
+    "email": "updated_student95@example.com",
+    "phone_number": "+48 568 850 178",
+    "program_name": "Updated_Program_95",
+    "semester": "10",
+    "study_mode": "Full-time",
+    "courses": [
+      "acc135ed-e6f1-46ab-8b89-9b2ea0822fd8",
+      "a2d979bf-d9f3-4ec8-b5ab-abd528777cce",
+      "e0596222-6918-4ae0-b6cb-cab069429c85"
+    ]
+  },
+  {
+    "student_id": "fca4452b-2945-4fc7-bfea-faa9746a6380",
+    "name": "Updated_Name_96",
+    "surname": "Updated_Surname_96",
+    "email": "updated_student96@example.com",
+    "phone_number": "+48 901 678 994",
+    "program_name": "Updated_Program_96",
+    "semester": "5",
+    "study_mode": "Full-time",
+    "courses": [
+      "e2340fca-4075-45e3-a7e2-5c1f9b5a9888",
+      "57712d93-8f46-4ec9-8b9f-9bf2eca607d1",
+      "ee90c64c-8b0f-4e7d-b77e-cebd4d9d0637",
+      "dbfed1ca-f01c-4e99-ae56-85b916907156"
+    ]
+  },
+  {
+    "student_id": "65ddb4cb-c2ae-49d4-929e-2b733b81ea18",
+    "name": "Updated_Name_97",
+    "surname": "Updated_Surname_97",
+    "email": "updated_student97@example.com",
+    "phone_number": "+48 787 669 821",
+    "program_name": "Updated_Program_97",
+    "semester": "4",
+    "study_mode": "Full-time",
+    "courses": [
+      "ee90c64c-8b0f-4e7d-b77e-cebd4d9d0637",
+      "4a35de79-1416-4f36-83ff-aa64c9a13c48",
+      "9327dbdc-bdaf-42c4-a5a2-6c44a6bf7a9e"
+    ]
+  },
+  {
+    "student_id": "a1a3ad88-5908-4042-8aec-6436424324f3",
+    "name": "Updated_Name_98",
+    "surname": "Updated_Surname_98",
+    "email": "updated_student98@example.com",
+    "phone_number": "+48 679 417 867",
+    "program_name": "Updated_Program_98",
+    "semester": "4",
+    "study_mode": "Full-time",
+    "courses": [
+      "af9fc070-baeb-478b-8f5f-0efddf80bfae",
+      "c9b9f6bf-b9e9-4115-8e52-8b2fa910a7d0",
+      "d58f7036-cfcd-4245-8eab-751e9945eb87"
+    ]
+  },
+  {
+    "student_id": "7fcac10c-a07c-4206-a79e-5c60b194c627",
+    "name": "Updated_Name_99",
+    "surname": "Updated_Surname_99",
+    "email": "updated_student99@example.com",
+    "phone_number": "+48 554 760 212",
+    "program_name": "Updated_Program_99",
+    "semester": "6",
+    "study_mode": "Part-time",
+    "courses": [
+      "256252d7-0793-4e90-b624-2dd7a946cb33"
+    ]
+  },
+  {
+    "student_id": "58289ab1-8abd-4471-8b79-037af46074f7",
+    "name": "Updated_Name_100",
+    "surname": "Updated_Surname_100",
+    "email": "updated_student100@example.com",
+    "phone_number": "+48 994 656 987",
+    "program_name": "Updated_Program_100",
+    "semester": "6",
+    "study_mode": "Part-time",
+    "courses": [
+      "e5b411ce-e119-43cd-8cb6-0bb996780820",
+      "d107bca5-d838-4ab8-9438-fb3fcdca21a2",
+      "662a2a58-8217-4785-8aa4-f0f0624ba282",
+      "16308d51-5ac4-4280-8993-d6ed4a0001a5"
+    ]
+  }
+]

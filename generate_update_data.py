@@ -4,10 +4,10 @@ import random
 import config
 
 MONGO_DATA_PATH = os.path.join(
-    os.path.dirname(os.path.abspath(__file__)), "mongo", "assets"
+    os.path.dirname(os.path.abspath(__file__)), "mongo", "assets_10_tys"
 )
 POSTGRES_DATA_PATH = os.path.join(
-    os.path.dirname(os.path.abspath(__file__)), "postgres", "assets"
+    os.path.dirname(os.path.abspath(__file__)), "postgres", "assets_10_tys"
 )
 
 
@@ -16,7 +16,7 @@ def generate_student_update_data(student_path):
         os.path.join(POSTGRES_DATA_PATH, "students.csv"), mode="r", encoding="utf-8"
     ) as file:
         reader = csv.reader(file, delimiter=";")
-        data = [next(reader)]  # Dodanie nagłówka
+        data = [next(reader)]
 
         for i, row in enumerate(reader, start=1):
             if i <= config.UPDATE_RECORDS:
@@ -32,7 +32,7 @@ def generate_student_update_data(student_path):
 
                 data.append(row)
             else:
-                break  # Przerwanie pętli po dodaniu tysiąca wierszy
+                break
 
     with open(student_path, mode="w", newline="", encoding="utf-8") as file:
         writer = csv.writer(file, delimiter=";")

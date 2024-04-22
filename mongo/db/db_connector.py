@@ -53,28 +53,13 @@ class MongoDB:
             print(f"Error retrieving collection '{collection_name}': {e}")
             return None
 
-    def get_by_id(self, collection_name: str, document_id: str):
-        try:
-            query = {"_id": document_id}
-            return self.get_df_from_mongo(collection_name, query)
-        except Exception as error:
-            logging.error("Can not get data by ID from MongoDB: " + str(error))
-
-    def get_last_document(self, collection_name: str, field_name: str):
-        try:
-            cursor = self.db[collection_name].find().sort(field_name, -1).limit(1)
-            df = pd.DataFrame(list(cursor))
-            return df
-        except Exception as error:
-            logging.error("Can not get last document from MongoDB: " + str(error))
-
-    def execute_transaction_with_data(self, collection_name: str, df: pd.DataFrame):
+    def execute_transaction_with_data(self, collection_name: str, data_json: str):
         try:
             logging.info("Start executing transaction with data for MongoDB")
             with self.client.start_session() as session:
                 with session.start_transaction():
-                    records = df.to_dict(orient="records")
-                    self.db[collection_name].insert_many(records)
+                    data = json.loads(data_json)
+                    self.db.insert_one(collection_name, data)
             logging.info("Data has been written to MongoDB")
         except Exception as error:
             logging.error("Transaction with data failed for MongoDB: " + str(error))
@@ -88,20 +73,15 @@ class MongoDB:
 
             requests = []
             for record in data:
-                # Sprawdź, czy pole "course_id" istnieje w dokumencie
                 if "course_id" in record or "student_id" in record:
-                    # Przypisz wartość pola "course_id" do pola "_id"
                     record["_id"] = record.pop(id_name)
 
-                # Stwórz zapytanie aktualizacji
                 filter_query = {"_id": record["_id"]}
                 update_query = {"$set": record}
 
-                # Dodaj zapytanie do listy
                 requests.append(UpdateOne(filter_query, update_query))
 
             if requests:
-                # Wykonaj masową aktualizację
                 result = self.db[collection_name].bulk_write(requests)
                 logging.info(f"Updated {result.modified_count} documents in MongoDB")
             else:
@@ -124,3 +104,41 @@ class MongoDB:
             logging.error(
                 f"Can not delete documents from collection '{collection_name}': {error}"
             )
+
+    def aggregate_students_by_program(self):
+        try:
+            pipeline = [
+                {"$group": {"_id": "$program_name", "num_students": {"$sum": 1}}},
+                {"$project": {"_id": 0, "program_name": "$_id", "num_students": 1}},
+            ]
+            result = self.db.students.aggregate(pipeline)
+            return list(result)
+        except Exception as e:
+            logging.error(f"Error aggregating students by program in MongoDB: {e}")
+
+    def join_students_courses(self):
+        try:
+            pipeline = [
+                {"$unwind": "$courses"},
+                {
+                    "$lookup": {
+                        "from": "courses",
+                        "localField": "courses",
+                        "foreignField": "course_id",
+                        "as": "course",
+                    }
+                },
+                {"$unwind": "$course"},
+                {
+                    "$project": {
+                        "_id": 0,
+                        "student_name": {"$concat": ["$name", " ", "$surname"]},
+                        "course_name": "$course.course_name",
+                        "instructor": "$course.instructor",
+                    }
+                },
+            ]
+            result = self.db.students.aggregate(pipeline)
+            return list(result)
+        except Exception as e:
+            logging.error(f"Error performing join query in MongoDB: {e}")

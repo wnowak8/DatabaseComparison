@@ -33,6 +33,3 @@ courses_json = csv_to_json_with_courses(
 )
 
 update_json_with_enrollments(students_json, courses_json, file_path)
-
-
-
